@@ -1,0 +1,114 @@
+{
+	"info": {
+		"_postman_id": "f0fffbca-893c-4727-9223-3f099af05ec2",
+		"name": "Auksi",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "10850610"
+	},
+	"item": [
+		{
+			"name": "Login - Auksi",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "auksi-key",
+						"value": "API_AUCTION",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "email",
+							"value": "TRIICHSAN1@GMAIL.COM",
+							"type": "text",
+							"disabled": false
+						},
+						{
+							"key": "password",
+							"value": "4ss355m3n$Auks!",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "ANISA@LOGIQUE.CO.ID",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "email",
+							"value": "ALVIN5@LOGIQUE.CO.ID",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "email",
+							"value": "ALVIN4@LOGIQUE.CO.ID",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "email",
+							"value": "MONDY1@MAIL.COM",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "email",
+							"value": "ASSESSMENTAUKSI@GMAIL.COM",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "dummylima@logique.co.id",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "email",
+							"value": "AKUNTESTSATU@LOGIQUE.CO.ID",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "email",
+							"value": "TIARA@MAIL.COM",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "email",
+							"value": "FRANCEF472@GMAIL.COM",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "email",
+							"value": "akuntestenam@logique.co.id",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "",
+							"value": "",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "https://api.auksi.co.id/login",
+					"host": [
+						"https://api.auksi.co.id/"
+					],
+					"path": [
+						"login"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
